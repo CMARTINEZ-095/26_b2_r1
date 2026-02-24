@@ -140,30 +140,30 @@ src/main/java/com/cesde/pi
 
 ## 📸 Evidencias y Resultados
 
-### Punto 1 - Configuración Inicial
+
 ![Punto 1](images/img.1.punto.png)
 
-### Punto 2 - Creación de Entidades
+
 ![Punto 2](images/img.2.punto.png)
 
-### Punto 3 - Configuración de Repositorio
+
 ![Punto 3](images/img.3.punto.png)
 
-### Punto 4 - Implementación de Servicios
+
 ![Punto 4](images/img.4.punto.png)
 
-### Punto 5 - Controladores REST
+
 ![Punto 5](images/img.5.punto.png)
 
-### Punto 6 - Pruebas Exitosas
+
 ![Punto 6](images/img.6.punto.png)
 
-### Base de Datos - Prisma
+
 ![Prisma 1](images/img.prisma.png)
 ![Prisma 2](images/img.prismaa.png)
 ![Prisma 3](images/img.prismaaa.png)
 
-### Spring Boot Log
+
 ![Spring Boot](images/img.springboot.png)
 ![Spring Boot Text](images/text.springboot.png)
 
