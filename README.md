@@ -167,7 +167,8 @@ src/main/java/com/cesde/pi
 ![Spring Boot Text](images/text.springboot.png)
 ![Spring Boot Text](images/inicializar.captura.png)
 
- ## prueba text de spring boot inicializar 
+ ## prueba de text 
+PS C:\BAC_END_2\26_b2_r1> .\mvnw.cmd test
 [INFO] Scanning for projects...
 [INFO] 
 [INFO] ----------------------------< com.cesde:pi >----------------------------
@@ -181,7 +182,7 @@ src/main/java/com/cesde/pi
 [INFO] 
 [INFO] --- compiler:3.14.1:compile (default-compile) @ pi ---
 [INFO] Nothing to compile - all classes are up to date.
-[INFO] 
+[INFO]
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ pi ---
 [INFO] Copying 1 resource from src\test\resources to target\test-classes
 [INFO]
@@ -195,9 +196,9 @@ src/main/java/com/cesde/pi
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.cesde.pi.PiApplicationTests
-20:51:27.140 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.cesde.pi.PiApplicationTests]: PiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-20:51:27.695 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.cesde.pi.PiApplication for test class com.cesde.pi.PiApplicationTests
-20:51:28.223 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+22:03:58.694 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.cesde.pi.PiApplicationTests]: PiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:03:58.896 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.cesde.pi.PiApplication for test class com.cesde.pi.PiApplicationTests
+22:03:59.148 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -208,20 +209,20 @@ src/main/java/com/cesde/pi
 
  :: Spring Boot ::                (v4.0.2)
 
-2026-02-25T20:51:28.980-05:00  INFO 17820 --- [           main] com.cesde.pi.PiApplicationTests          : Starting PiApplicationTests using Java 24.0.2 with PID 17820 (started by andre in C:\BAC_END_2\26_b2_r1)
-2026-02-25T20:51:28.982-05:00  INFO 17820 --- [           main] com.cesde.pi.PiApplicationTests          : No active profile set, falling back to 1 default profile: "default"
-2026-02-25T20:51:30.463-05:00  INFO 17820 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-25T20:51:30.558-05:00  INFO 17820 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
-2026-02-25T20:51:31.415-05:00  INFO 17820 --- [           main] org.hibernate.orm.jpa                
+2026-02-25T22:03:59.514-05:00  INFO 19676 --- [           main] com.cesde.pi.PiApplicationTests          : Starting PiApplicationTests using Java 24.0.2 with PID 19676 (started by andre in C:\BAC_END_2\26_b2_r1)
+2026-02-25T22:03:59.517-05:00  INFO 19676 --- [           main] com.cesde.pi.PiApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2026-02-25T22:04:00.900-05:00  INFO 19676 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-25T22:04:00.990-05:00  INFO 19676 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2026-02-25T22:04:01.763-05:00  INFO 19676 --- [           main] org.hibernate.orm.jpa                
     : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-02-25T20:51:31.523-05:00  INFO 17820 --- [           main] org.hibernate.orm.core               
+2026-02-25T22:04:01.844-05:00  INFO 19676 --- [           main] org.hibernate.orm.core               
     : HHH000001: Hibernate ORM core version 7.2.1.Final
-2026-02-25T20:51:32.473-05:00  INFO 17820 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-25T20:51:32.520-05:00  INFO 17820 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-25T20:51:32.839-05:00  INFO 17820 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2026-02-25T20:51:32.841-05:00  INFO 17820 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-25T20:51:32.872-05:00  WARN 17820 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-02-25T20:51:32.905-05:00  INFO 17820 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-02-25T22:04:02.735-05:00  INFO 19676 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-25T22:04:02.784-05:00  INFO 19676 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-25T22:04:03.017-05:00  INFO 19676 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-02-25T22:04:03.019-05:00  INFO 19676 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-25T22:04:03.053-05:00  WARN 19676 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-25T22:04:03.093-05:00  INFO 19676 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
         Database JDBC URL [jdbc:h2:mem:testdb]
         Database driver: H2 JDBC Driver
         Database dialect: H2Dialect
@@ -233,21 +234,21 @@ src/main/java/com/cesde/pi
         Pool: DataSourceConnectionProvider
         Minimum pool size: undefined/unknown
         Maximum pool size: undefined/unknown
-2026-02-25T20:51:33.988-05:00  INFO 17820 --- [           main] org.hibernate.orm.core               
+2026-02-25T22:04:04.104-05:00  INFO 19676 --- [           main] org.hibernate.orm.core               
     : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-25T20:51:34.043-05:00  INFO 17820 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-25T20:51:34.316-05:00  INFO 17820 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-02-25T20:51:34.898-05:00  WARN 17820 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-25T20:51:36.143-05:00  INFO 17820 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2026-02-25T20:51:36.262-05:00  INFO 17820 --- [           main] com.cesde.pi.PiApplicationTests          : Started PiApplicationTests in 8.062 seconds (process running for 12.001)
+2026-02-25T22:04:04.157-05:00  INFO 19676 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-25T22:04:04.349-05:00  INFO 19676 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-25T22:04:04.806-05:00  WARN 19676 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-25T22:04:05.753-05:00  INFO 19676 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-02-25T22:04:05.864-05:00  INFO 19676 --- [           main] com.cesde.pi.PiApplicationTests          : Started PiApplicationTests in 6.73 seconds (process running for 8.548)
 Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
-Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
 WARNING: A Java agent has been loaded dynamically (C:\Users\andre\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
 WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.54 s -- in com.cesde.pi.PiApplicationTests
-[INFO] 
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.986 s -- in com.cesde.pi.PiApplicationTests
+[INFO]
 [INFO] Results:
 [INFO]
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
@@ -255,10 +256,23 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  15.462 s
-[INFO] Finished at: 2026-02-25T20:51:37-05:00
+[INFO] Total time:  11.466 s
+[INFO] Finished at: 2026-02-25T22:04:06-05:00
 [INFO] ------------------------------------------------------------------------
-PS C:\BAC_END_2\26_b2_r1> 
+PS C:\BAC_END_2\26_b2_r1>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
