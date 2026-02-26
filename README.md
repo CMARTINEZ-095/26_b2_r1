@@ -140,32 +140,32 @@ src/main/java/com/cesde/pi
 
 ## 📸 Evidencias y Resultados
 
-
+## consulta de estudiante metodo GET
 ![Punto 1](images/img.1.punto.png)
 
-
+## consulta de estudiante metodo GET por ID
 ![Punto 2](images/img.2.punto.png)
 
-
+# consulta de estudiante por email metodo GET
 ![Punto 3](images/img.3.punto.png)
 
-
+## Crear un nuevo estudiante metodo POST
 ![Punto 4](images/img.4.punto.png)
 
-
+## actualizar estudiante metodo PUT
 ![Punto 5](images/img.5.punto.png)
 
-
+## eliminar estudiante metodo DELETE
 ![Punto 6](images/img.6.punto.png)
 
-
-![Prisma 1](images/img.prisma.png)
-![Prisma 2](images/img.prismaa.png)
+## captura de ejecucion de prueba, text
+![Prisma 1](images/prisma.username.png)
 ![Prisma 3](images/img.prismaaa.png)
 
-
+## captura de pantallas de ejecucion de las pruebas internas del proyecto
 ![Spring Boot](images/img.springboot.png)
 ![Spring Boot Text](images/text.springboot.png)
+![Spring Boot Text](images/inicializar.captura.png)
 
 
 
